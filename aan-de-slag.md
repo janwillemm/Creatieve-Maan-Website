@@ -35,15 +35,21 @@ permalink: /aan-de-slag/
         {% endfor %}
       </ul>
       {% endif %}
+      {% if spel.links or spel.link or spel.contact %}
       <p class="game-item__links">
-        {% if spel.link %}
+        {% if spel.links %}
+          {% for lnk in spel.links %}
+          <a href="{{ lnk.url }}" target="_blank" rel="noopener noreferrer">{{ lnk.label }} →</a>{% unless forloop.last %}<span class="game-item__sep">·</span>{% endunless %}
+          {% endfor %}
+        {% elsif spel.link %}
         <a href="{{ spel.link }}" target="_blank" rel="noopener noreferrer">{{ spel.link_label | default: "Meer informatie" }} →</a>
         {% endif %}
         {% if spel.contact %}
-        {% if spel.link %}<span class="game-item__sep">·</span>{% endif %}
+        {% if spel.links or spel.link %}<span class="game-item__sep">·</span>{% endif %}
         <a href="mailto:{{ spel.contact }}">{{ spel.contact }}</a>
         {% endif %}
       </p>
+      {% endif %}
     </div>
   </article>
   {% endfor %}

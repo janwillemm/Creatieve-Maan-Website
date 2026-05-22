@@ -44,6 +44,18 @@ Beantwoord wat je wilt; overslaan mag. Stuur antwoorden gerust per sectie terug 
 
 ---
 
+---
+
+## Laaggeletterdheid (workshop)
+
+41. Klopt **tot 50 deelnemers** — hoeveel koffers/spelstations zet je in?
+42. Duur van een **volledige workshop** (halve dag, hele dag)?
+43. Komt de **caravan** nog fysiek mee, of alleen de **koffer(s)**?
+44. Wat zit er in het **nagesprek** (vaste vragen, ervaringsdeskundige)?
+45. Voor welke **organisaties** heb je dit al gedraaid (mag je namen noemen)?
+46. **Prijsindicatie** of pakketten (basis / uitgebreid)?
+47. Link naar **Jump** voor koffer-bestelling — wil je die ook tonen?
+
 ## Woordenweide
 
 21. Wat was **jouw rol** bij de ontwikkeling (concept, techniek, didactiek, design)?

@@ -15,6 +15,28 @@
   link_label: Video & handleiding (Raccoon)
   order: 1
 
+- title: Laaggeletterdheid — workshop
+  emoji: "📖"
+  type: Workshop · bewustwording
+  audience: Gemeenten, bibliotheken, zorg en onderwijs — tot 50 deelnemers
+  description: >-
+    Een energieke workshop waarin deelnemers ervaren hoe het is om vast te lopen
+    in taal — iets waar dagelijks 2,5 miljoen Nederlanders mee te maken hebben.
+    Gebaseerd op de bekroonde Great Holiday Escape (caravan) en de handzame
+    escape koffer: in circa 15 minuten per ronde voel je de frustratie, daarna
+    praten we over begrip en handelen.
+  highlights:
+    - Workshop op maat voor groepen tot 50 personen (parallelle spelrondes)
+    - Ontstaan uit de Raccoon-caravan (NRC: “parel van bewustwording”) en de koffer met Stichting Lezen en Schrijven
+    - Ik was mede-ontwikkelaar en begeleid het programma — van voorbereiding tot nagesprek
+    - Geschikt voor Week van Lezen en Schrijven, teamdagen en bewustwordingscampagnes
+  links:
+    - url: https://raccoon.games/escapebox-stichting-lezen-schrijven/
+      label: Escape koffer (Raccoon)
+    - url: https://raccoon.games/laaggeletterdheid-escape-caravan-great-holiday-escape/
+      label: Escape caravan (Raccoon)
+  order: 2
+
 - title: Woordenweide
   emoji: "🌿"
   type: Digitale app · kleuteronderwijs
@@ -30,4 +52,4 @@
   link: https://woordenweide.nl
   link_label: Meer op woordenweide.nl
   contact: woordenweide@creatievemaan.nl
-  order: 2
+  order: 3
