@@ -1,3 +1,20 @@
+- title: Preludens
+  emoji: "✨"
+  type: Leerervaringen · eigen leeromgeving
+  audience: Organisaties met veranderings- of opleidingsvraagstukken
+  description: >-
+    Via Preludens ontwerp ik leerervaringen die mensen voorbereiden op wat komen
+    gaat: stripverhalen voor inleving, MicroGames voor activatie en herhaling, en
+    directe feedback in jullie eigen leeromgeving.
+  highlights:
+    - MicroGame Stories — volledige storylines (ca. 7 hoofdstukken, 5 MicroGames)
+    - Short Stories — korte dilemma-interventies (2–5 keuzes per verhaal)
+    - Van visie tot inzetbaar product, aansluitend bij jullie praktijk
+  link: /preludens/
+  link_label: Ontdek Preludens
+  internal: true
+  order: 0
+
 - title: Een eigen thuis
   emoji: "🏠"
   type: Fysiek bordspel · bewustwording

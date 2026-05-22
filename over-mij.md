@@ -50,17 +50,21 @@ permalink: /over-mij/
 
     <h2>Ervaring</h2>
     <p>
-      Jarenlang was ik medeoprichter en creatief directeur bij
-      <a href="{{ '/projecten/raccoon-serious-games/' | relative_url }}">Raccoon Serious Games</a>,
-      waar we leerervaringen en games ontwikkelden voor organisaties met
-      maatschappelijke impact. Tegenwoordig werk ik als conceptontwikkelaar,
-      trainer en spelbegeleider bij
-      <a href="{{ '/projecten/jump-serious-games/' | relative_url }}">Jump Serious Games</a>.
+      Ik run <strong><a href="{{ '/preludens/' | relative_url }}">Preludens</a></strong> —
+      waar ik leerervaringen ontwerp met stripverhalen en MicroGames. We bereiden
+      brede doelgroepen voor op verandering en nieuwe kennis, met inzet in de eigen
+      leeromgeving van opdrachtgevers.
     </p>
     <p>
-      Daarnaast ben ik actief als freelance creative concept developer: van
-      creative lead en concept development tot training, ontwikkeling en
-      serious games op maat.
+      Daarnaast werk ik als conceptontwikkelaar, trainer en spelbegeleider bij
+      <a href="{{ '/projecten/jump-serious-games/' | relative_url }}">Jump Serious Games</a>
+      en begeleid ik onder meer de laaggeletterdheid-workshop en serious games op maat.
+    </p>
+    <p>
+      Eerder was ik medeoprichter en creatief directeur bij
+      <a href="{{ '/projecten/raccoon-serious-games/' | relative_url }}">Raccoon Serious Games</a>,
+      waar we leerervaringen en games ontwikkelden met landelijke impact — van de
+      escape caravan en koffer voor laaggeletterdheid tot maatschappelijke serious games.
     </p>
   </div>
 </div>

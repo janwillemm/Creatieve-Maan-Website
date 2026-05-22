@@ -39,10 +39,10 @@ permalink: /aan-de-slag/
       <p class="game-item__links">
         {% if spel.links %}
           {% for lnk in spel.links %}
-          <a href="{{ lnk.url }}" target="_blank" rel="noopener noreferrer">{{ lnk.label }} →</a>{% unless forloop.last %}<span class="game-item__sep">·</span>{% endunless %}
+          <a href="{{ lnk.url | relative_url }}"{% unless lnk.internal %} target="_blank" rel="noopener noreferrer"{% endunless %}>{{ lnk.label }} →</a>{% unless forloop.last %}<span class="game-item__sep">·</span>{% endunless %}
           {% endfor %}
         {% elsif spel.link %}
-        <a href="{{ spel.link }}" target="_blank" rel="noopener noreferrer">{{ spel.link_label | default: "Meer informatie" }} →</a>
+        <a href="{{ spel.link | relative_url }}"{% unless spel.internal %} target="_blank" rel="noopener noreferrer"{% endunless %}>{{ spel.link_label | default: "Meer informatie" }} →</a>
         {% endif %}
         {% if spel.contact %}
         {% if spel.links or spel.link %}<span class="game-item__sep">·</span>{% endif %}

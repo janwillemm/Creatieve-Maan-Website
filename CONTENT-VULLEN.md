@@ -4,6 +4,16 @@ Beantwoord wat je wilt; overslaan mag. Stuur antwoorden gerust per sectie terug 
 
 ---
 
+## Preludens
+
+0. Website-URL van Preludens (als die er is)?
+1. Wil je prijzen (€10.000 / €1.500) prominent op de site houden?
+2. Voorbeelden of screenshots van stripverhalen / MicroGames die we mogen tonen?
+3. Typische opdrachtgevers en sectoren?
+4. Hoe heet de leeromgeving (platform) technisch — mag je de naam noemen?
+
+---
+
 ## Algemeen
 
 1. Wat is je **elevator pitch** in één zin (voor op de homepage)?

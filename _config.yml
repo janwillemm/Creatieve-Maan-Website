@@ -49,6 +49,8 @@ defaults:
 navigation:
   - title: Home
     url: /
+  - title: Preludens
+    url: /preludens/
   - title: Over mij
     url: /over-mij/
   - title: Aan de slag
@@ -59,6 +61,8 @@ navigation:
 footer_links:
   - title: Home
     url: /
+  - title: Preludens
+    url: /preludens/
   - title: Over mij
     url: /over-mij/
   - title: Aan de slag

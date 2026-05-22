@@ -638,6 +638,27 @@ ul {
   margin-top: 0;
 }
 
+.preludens-pillars {
+  margin-bottom: var(--space-xl);
+}
+
+.preludens-product {
+  margin-bottom: var(--space-xl);
+  padding: var(--space-lg);
+  border-radius: var(--radius-md);
+  background: var(--color-white);
+  border: 1px solid rgba(196, 196, 196, 0.5);
+}
+
+.preludens-product--alt {
+  background: var(--color-surface);
+  border-color: transparent;
+}
+
+.preludens-product h2 {
+  margin-top: 0;
+}
+
 /* About */
 .about-grid {
   display: grid;

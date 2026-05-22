@@ -25,6 +25,12 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.internal_url %}
+  <div class="container project-detail__cta">
+    <a class="btn btn--primary" href="{{ page.internal_url | relative_url }}">Meer over {{ page.title }}</a>
+  </div>
+  {% endif %}
+
   {% if page.external_url %}
   <div class="container project-detail__cta">
     <a class="btn btn--primary" href="{{ page.external_url }}" target="_blank" rel="noopener noreferrer">

@@ -18,10 +18,10 @@ title: Home
         <a class="btn btn--ghost" href="{{ '/aan-de-slag/' | relative_url }}">Spellen &amp; sessies</a>
       </div>
       <ul class="hero__tags" aria-label="Expertises">
-        <li>Creative Lead</li>
+        <li>Preludens</li>
+        <li>Serious Games</li>
         <li>Concept Development</li>
         <li>Training &amp; ontwikkeling</li>
-        <li>Serious Games</li>
       </ul>
     </div>
     <div class="hero__visual">
@@ -81,18 +81,39 @@ title: Home
   </div>
 </section>
 
+
+<section class="section section--surface">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">Nu</p>
+      <h2>Preludens</h2>
+      <p class="lead">
+        Mijn bedrijf voor leerervaringen die vooruitkijken: stripverhalen, MicroGames
+        en feedback in jullie eigen leeromgeving.
+      </p>
+    </div>
+    <p>
+      Van volledige <strong>MicroGame Stories</strong> tot compacte <strong>Short Stories</strong> —
+      altijd met focus op inleving, activatie en wat verandering betekent in de praktijk.
+    </p>
+    <p style="margin-top: 1.5rem;">
+      <a class="btn btn--primary" href="{{ '/preludens/' | relative_url }}">Ontdek Preludens</a>
+    </p>
+  </div>
+</section>
+
 <section class="section section--surface">
   <div class="container">
     <div class="section__header">
       <p class="eyebrow">Projecten</p>
       <h2>Waar ik aan heb gewerkt</h2>
       <p class="lead">
-        Van medeoprichter bij Raccoon Serious Games tot conceptontwikkelaar bij
-        Jump — altijd met focus op mensen en maatschappelijke impact.
+        Van Preludens en Jump tot Raccoon Serious Games — altijd met focus op
+        mensen, inleving en maatschappelijke impact.
       </p>
     </div>
     <div class="card-grid">
-      {% assign featured = site.projects | sort: 'order' %}
+      {% assign featured = site.projects | sort: 'order' | limit: 3 %}
       {% for project in featured %}
       <article class="card project-card">
         <div class="project-card__accent project-card__accent--{% cycle 'coral', 'mint' %}"></div>
