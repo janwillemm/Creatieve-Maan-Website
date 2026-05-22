@@ -4,13 +4,54 @@ title: Aan de slag
 hero: true
 hero_label: Aan de slag
 hero_title: Spellen die je bij mij kunt spelen
-hero_text: Van serious game sessies tot escape rooms en maatwerk — samen kiezen we de vorm die past bij jouw vraag.
+hero_text: Concrete spellen die ik begeleid of heb ontwikkeld — plus maatwerk en sessies op jouw vraag.
 permalink: /aan-de-slag/
 ---
 
 <p class="lead">
-  Bij mij huur je geen standaard workshop van de plank. We kijken samen wat je
-  wilt bereiken — en welk spel of welke ervaring daar het beste bij past.
+  Hieronder vind je spellen die je direct kunt inzetten. Daaronder staan
+  manieren waarop ik je verder kan helpen — van serious games tot escape rooms
+  en maatwerk.
+</p>
+
+<h2>Spellen</h2>
+<p class="section-intro">
+  Deze spellen kun je bij mij boeken of via de genoemde links verkennen.
+</p>
+
+<div class="game-list game-list--featured">
+  {% assign spellen = site.data.spellen | sort: 'order' %}
+  {% for spel in spellen %}
+  <article class="game-item game-item--featured">
+    <span class="game-item__emoji" aria-hidden="true">{{ spel.emoji }}</span>
+    <div>
+      <p class="game-item__type">{{ spel.type }}{% if spel.audience %} · {{ spel.audience }}{% endif %}</p>
+      <h3>{{ spel.title }}</h3>
+      <p>{{ spel.description }}</p>
+      {% if spel.highlights %}
+      <ul class="game-item__highlights">
+        {% for item in spel.highlights %}
+        <li>{{ item }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      <p class="game-item__links">
+        {% if spel.link %}
+        <a href="{{ spel.link }}" target="_blank" rel="noopener noreferrer">{{ spel.link_label | default: "Meer informatie" }} →</a>
+        {% endif %}
+        {% if spel.contact %}
+        {% if spel.link %}<span class="game-item__sep">·</span>{% endif %}
+        <a href="mailto:{{ spel.contact }}">{{ spel.contact }}</a>
+        {% endif %}
+      </p>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+<h2>Ook mogelijk</h2>
+<p class="section-intro">
+  Past geen standaardspel? Dan kijken we samen welke vorm het beste werkt.
 </p>
 
 <div class="game-list">
@@ -37,7 +78,7 @@ permalink: /aan-de-slag/
 <div class="cta-band" style="margin-top: 3rem;">
   <h2>Plan een gesprek</h2>
   <p>
-    Benieuwd welk spel bij jouw team of organisatie past? Mail of bel — dan
+    Benieuwd welk spel bij jouw team, school of organisatie past? Mail of bel — dan
     denken we vrijblijvend mee.
   </p>
   <a class="btn btn--primary" href="mailto:{{ site.email }}">{{ site.email }}</a>

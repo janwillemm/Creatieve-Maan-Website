@@ -1,0 +1,33 @@
+- title: Een eigen thuis
+  emoji: "🏠"
+  type: Fysiek bordspel · bewustwording
+  audience: Teams, scholen en maatschappelijke organisaties
+  description: >-
+    Een ervaringsgericht bordspel dat de problematiek rond dak- en thuisloosheid
+    bespreekbaar maakt. Spelers stappen in een situatie die de realiteit nabootst
+    en ervaren hoe het is om te navigeren door opvang en regelingen — met ruimte
+    voor reflectie achteraf.
+  highlights:
+    - Fysiek spel in een kartonnen koker (spelmat, kaarten en materialen)
+    - Geschikt om te faciliteren met begeleider en reflectievragen
+    - Ontwikkeld bij Raccoon Serious Games; ik begeleid het spel nog steeds
+  link: https://raccoon.games/iedereen-een-thuis-serious-game/
+  link_label: Video & handleiding (Raccoon)
+  order: 1
+
+- title: Woordenweide
+  emoji: "🌿"
+  type: Digitale app · kleuteronderwijs
+  audience: Kleuterleerkrachten, IB schools en ouders
+  description: >-
+    Met Woordenweide leren kleuters op een speelse manier Nederlandse woorden.
+    De app combineert spraak en beeld met minigames, zodat kinderen hun
+    woordenschat vergroten — thuis én op school.
+  highlights:
+    - Themawoorden voor het hele schooljaar plannen
+    - Ontwikkeld door leerkrachten, voor in de kleuterklas
+    - Stimuleert samenwerking tussen ouder en kind
+  link: https://woordenweide.nl
+  link_label: Meer op woordenweide.nl
+  contact: woordenweide@creatievemaan.nl
+  order: 2
