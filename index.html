@@ -1,0 +1,121 @@
+---
+layout: home
+title: Home
+---
+
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__content">
+      <p class="hero__eyebrow">Freelance creative concept developer</p>
+      <h1 class="hero__title">Brengt mensen in <em>beweging</em></h1>
+      <p class="hero__lead">
+        Of het gaat om creatieve teams die een doel moeten bereiken of om
+        maatschappelijke bewustwording: met een energieke en mensgerichte aanpak
+        zorg ik ervoor dat mensen in beweging komen.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="mailto:{{ site.email }}">Neem contact op</a>
+        <a class="btn btn--ghost" href="{{ '/aan-de-slag/' | relative_url }}">Spellen &amp; sessies</a>
+      </div>
+      <ul class="hero__tags" aria-label="Expertises">
+        <li>Creative Lead</li>
+        <li>Concept Development</li>
+        <li>Training &amp; ontwikkeling</li>
+        <li>Serious Games</li>
+      </ul>
+    </div>
+    <div class="hero__visual">
+      <div class="hero__blob" aria-hidden="true"></div>
+      <img
+        class="hero__portrait"
+        src="https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-developer-Jan-willem-Manenschijn-de-creatieve-maan-outline-768x768.png"
+        alt="Jan-Willem Manenschijn – De Creatieve M(a)an"
+        width="768"
+        height="768"
+        loading="eager"
+      >
+      <p class="hero__caption">
+        Hoi! Ik ben Jan-Willem
+        <span>Een creatief mens</span>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">Wat ik doe</p>
+      <h2>Serious games die raken en verbinden</h2>
+      <p class="lead">
+        Ik combineer informatica, creativiteit en een passie voor leren. Samen
+        ontwerpen we ervaringen waarin spelen en reflecteren hand in hand gaan.
+      </p>
+    </div>
+    <div class="card-grid">
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">💡</div>
+        <h3>Conceptontwikkeling</h3>
+        <p>
+          Van eerste idee tot speelbaar concept. Ik denk graag vroeg mee met
+          opdrachtgevers en partners om te ontdekken wat er mogelijk is.
+        </p>
+      </article>
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">🎯</div>
+        <h3>Serious games</h3>
+        <p>
+          Spellen die maatschappelijke impact maken — bewustwording,
+          gedragsverandering of nieuwe vaardigheden, altijd op maat.
+        </p>
+      </article>
+      <article class="card">
+        <div class="card__icon" aria-hidden="true">🤝</div>
+        <h3>Training &amp; begeleiding</h3>
+        <p>
+          Als trainer en spelbegeleider creëer ik een veilige omgeving waarin
+          mensen willen én kunnen ontwikkelen.
+        </p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--surface">
+  <div class="container">
+    <div class="section__header">
+      <p class="eyebrow">Projecten</p>
+      <h2>Waar ik aan heb gewerkt</h2>
+      <p class="lead">
+        Van medeoprichter bij Raccoon Serious Games tot conceptontwikkelaar bij
+        Jump — altijd met focus op mensen en maatschappelijke impact.
+      </p>
+    </div>
+    <div class="card-grid">
+      {% assign featured = site.projects | sort: 'order' %}
+      {% for project in featured %}
+      <article class="card project-card">
+        <div class="project-card__accent project-card__accent--{% cycle 'coral', 'mint' %}"></div>
+        <p class="project-card__meta">{{ project.period }}</p>
+        <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+        <p>{{ project.summary }}</p>
+        <a class="card__link" href="{{ project.url | relative_url }}">Lees meer →</a>
+      </article>
+      {% endfor %}
+    </div>
+    <p style="margin-top: 2rem;">
+      <a class="btn btn--ghost" href="{{ '/projecten/' | relative_url }}">Alle projecten</a>
+    </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container cta-band">
+    <h2>Kom in beweging</h2>
+    <p>
+      Nieuwsgierig wat we samen kunnen maken? Bel of mail — dan kijken we wat
+      past bij jouw team of organisatie.
+    </p>
+    <a class="btn btn--primary" href="tel:{{ site.phone_link }}">{{ site.phone }}</a>
+  </div>
+</section>

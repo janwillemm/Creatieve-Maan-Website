@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="project-detail">
+  <header class="project-detail__header">
+    <div class="container">
+      <a class="back-link" href="{{ '/projecten/' | relative_url }}">← Alle projecten</a>
+      <p class="eyebrow">{{ page.period }}</p>
+      <h1>{{ page.title }}</h1>
+      <p class="lead">{{ page.summary }}</p>
+      {% if page.role %}
+      <p class="project-detail__role"><strong>Rol:</strong> {{ page.role }}</p>
+      {% endif %}
+      {% if page.tags %}
+      <ul class="tag-list">
+        {% for tag in page.tags %}
+        <li>{{ tag }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="container project-detail__body prose">
+    {{ content }}
+  </div>
+
+  {% if page.external_url %}
+  <div class="container project-detail__cta">
+    <a class="btn btn--primary" href="{{ page.external_url }}" target="_blank" rel="noopener noreferrer">
+      Bekijk {{ page.external_label | default: "meer" }}
+    </a>
+  </div>
+  {% endif %}
+</article>

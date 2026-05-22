@@ -1,0 +1,20 @@
+---
+layout: default
+---
+{% if page.hero %}
+<section class="page-hero">
+  <div class="container page-hero__inner">
+    {% if page.hero_label %}
+    <p class="eyebrow">{{ page.hero_label }}</p>
+    {% endif %}
+    <h1>{{ page.hero_title | default: page.title }}</h1>
+    {% if page.hero_text %}
+    <p class="lead">{{ page.hero_text }}</p>
+    {% endif %}
+  </div>
+</section>
+{% endif %}
+
+<div class="container page-content{% unless page.hero %} page-content--top{% endunless %}">
+  {{ content }}
+</div>

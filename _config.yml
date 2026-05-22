@@ -1,0 +1,67 @@
+title: De Creatieve M(a)an
+tagline: Freelance creative concept developer
+description: >-
+  Jan-Willem Manenschijn brengt mensen in beweging met serious games,
+  conceptontwikkeling en training. Creatief, mensgericht en speels.
+url: "https://creatievemaan.nl"
+baseurl: ""
+lang: nl
+locale: nl_NL
+email: jan-willem@creatievemaan.nl
+phone: "06 28 08 77 58"
+phone_link: "+31628087758"
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .bundle
+  - .github
+
+collections:
+  projects:
+    output: true
+    
+    permalink: /projecten/:name/
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: page
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: project
+
+navigation:
+  - title: Home
+    url: /
+  - title: Over mij
+    url: /over-mij/
+  - title: Aan de slag
+    url: /aan-de-slag/
+  - title: Projecten
+    url: /projecten/
+
+footer_links:
+  - title: Home
+    url: /
+  - title: Over mij
+    url: /over-mij/
+  - title: Aan de slag
+    url: /aan-de-slag/
+  - title: Projecten
+    url: /projecten/

@@ -1,0 +1,39 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="logo" href="{{ '/' | relative_url }}" aria-label="{{ site.title }} – home">
+      <span class="logo__mark" aria-hidden="true">M</span>
+      <span class="logo__text">
+        <span class="logo__name">De Creatieve M(a)an</span>
+        <span class="logo__tag">concept &amp; serious games</span>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="nav-toggle__label">Menu</span>
+      <span class="nav-toggle__icon" aria-hidden="true"></span>
+    </button>
+
+    <nav id="site-nav" class="site-nav" aria-label="Hoofdnavigatie">
+      <ul>
+        {% for item in site.navigation %}
+        {% assign is_home = item.url == '/' %}
+        {% assign is_current = false %}
+        {% if is_home %}
+          {% if page.url == '/' or page.url == '/index.html' %}
+            {% assign is_current = true %}
+          {% endif %}
+        {% elsif page.url contains item.url %}
+          {% assign is_current = true %}
+        {% endif %}
+        <li>
+          <a
+            href="{{ item.url | relative_url }}"
+            {% if is_current %}aria-current="page"{% endif %}
+          >{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+      <a class="btn btn--small btn--primary header-cta" href="tel:{{ site.phone_link }}">{{ site.phone }}</a>
+    </nav>
+  </div>
+</header>
