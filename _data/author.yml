@@ -21,8 +21,21 @@ github: https://github.com/janwillemm
 same_as:
   - https://www.linkedin.com/in/creatievemaan
   - https://github.com/janwillemm
-  - https://jumpseriousgames.nl
-  - https://raccoon.games
+affiliations:
+  - name: Preludens
+    url: https://creatievemaan.nl/preludens/
+    role: Oprichter
+  - name: Jump Serious Games
+    url: https://jumpseriousgames.nl
+    role: Conceptontwikkelaar, trainer en spelbegeleider
+  - name: InteractGGZ
+    url: https://www.linkedin.com/company/interactggz
+    role: Creatief techneut
+founded:
+  - name: Raccoon Serious Games
+    url: https://raccoon.games
+  - name: Preludens
+    url: https://creatievemaan.nl/preludens/
 knows_about:
   - Serious games
   - Conceptontwikkeling
