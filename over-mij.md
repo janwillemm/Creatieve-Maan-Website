@@ -30,6 +30,7 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
       <li>Technische Informatica, TU Delft</li>
       <li>Medeoprichter Raccoon Serious Games</li>
       <li>Werkt vanuit Houten, Utrecht</li>
+      <li>KVK {{ site.kvk }} · btw {{ site.vat }}</li>
       <li><a href="https://www.linkedin.com/in/creatievemaan" rel="me noopener noreferrer" target="_blank">LinkedIn-profiel</a></li>
     </ul>
   </div>

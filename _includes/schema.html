@@ -68,6 +68,14 @@
       "description": {{ site.description | jsonify }},
       "email": {{ site.email | jsonify }},
       "telephone": {{ site.phone_link | jsonify }},
+      "taxID": {{ site.kvk | jsonify }},
+      "vatID": {{ site.vat | jsonify }},
+      "identifier": {
+        "@type": "PropertyValue",
+        "name": "KVK",
+        "propertyID": "ChamberOfCommerceNumber",
+        "value": {{ site.kvk | jsonify }}
+      },
       "areaServed": {
         "@type": "Country",
         "name": "Nederland"

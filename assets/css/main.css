@@ -795,6 +795,13 @@ ul {
   max-width: 36ch;
 }
 
+.footer-legal {
+  margin: var(--space-sm) 0 0;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  opacity: 0.88;
+}
+
 /* AEO / EEAT */
 .breadcrumbs ol {
   list-style: none;
