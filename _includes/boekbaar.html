@@ -1,0 +1,29 @@
+<div class="game-list game-list--featured">
+  {% for item in include.items %}
+  <article class="game-item game-item--featured">
+    <span class="game-item__emoji" aria-hidden="true">{{ item.emoji }}</span>
+    <div>
+      <p class="game-item__type">{{ item.type }}{% if item.audience %} · {{ item.audience }}{% endif %}</p>
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+      {% if item.duration %}
+      <p class="game-item__type">Duur: {{ item.duration }}</p>
+      {% endif %}
+      {% if item.highlights %}
+      <ul class="game-item__highlights">
+        {% for point in item.highlights %}
+        <li>{{ point }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+      {% if item.links %}
+      <p class="game-item__links">
+        {% for lnk in item.links %}
+        <a href="{{ lnk.url | relative_url }}"{% unless lnk.internal %} target="_blank" rel="noopener noreferrer"{% endunless %}>{{ lnk.label }} →</a>{% unless forloop.last %}<span class="game-item__sep">·</span>{% endunless %}
+        {% endfor %}
+      </p>
+      {% endif %}
+    </div>
+  </article>
+  {% endfor %}
+</div>

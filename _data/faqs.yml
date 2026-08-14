@@ -49,9 +49,10 @@ over_mij:
 aan_de_slag:
   - question: Welke trainingen kan ik bij Jan-Willem boeken?
     answer: >-
-      Vier standaardproducten: de workshop laaggeletterdheid, de workshop Een
-      eigen thuis, de training Spelend impact maken en de training Effectief
-      en pragmatisch werken met AI. Presentaties op maat zijn ook mogelijk.
+      Workshops en trainingen: laaggeletterdheid, Een eigen thuis, Spelend
+      impact maken en Effectief en pragmatisch werken met AI. Daarnaast
+      begeleidt hij de spellen Reality Check, Vluchtelingenkamp en Juwelenroof.
+      Presentaties op maat zijn ook mogelijk.
   - question: Wat kost een workshop of training?
     answer: >-
       De prijs hangt af van groepsgrootte, locatie en duur. In het eerste
@@ -61,8 +62,9 @@ aan_de_slag:
     answer: >-
       Dat hangt af van de vorm. De workshop laaggeletterdheid werkt met rondes
       van circa 15 minuten plus nagesprek, en is schaalbaar tot ongeveer 50
-      deelnemers. Voor de andere trainingen stemmen we duur en groepsgrootte
-      af bij het boeken.
+      deelnemers. Juwelenroof duurt 1 tot 1,5 uur, Vluchtelingenkamp minimaal
+      2 uur. Voor de andere sessies stemmen we duur en groepsgrootte af bij
+      het boeken.
   - question: Werk je landelijk?
     answer: >-
       Ja. Jan-Willem werkt vanuit Houten (Utrecht) en begeleidt sessies op

@@ -631,6 +631,12 @@ ul {
   color: var(--color-muted);
 }
 
+.partner-note {
+  margin: -0.5rem 0 var(--space-xl);
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
 .page-content h2 {
   margin-top: var(--space-xl);
 }
