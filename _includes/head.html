@@ -2,9 +2,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   {% seo %}
+  <meta name="author" content="{{ site.data.author.name }}">
+  <meta name="geo.region" content="NL-UT">
+  <meta name="geo.placename" content="Houten">
+  <meta name="theme-color" content="#2E3A59">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | absolute_url }}">
+  <link rel="me" href="{{ site.data.author.linkedin }}">
+  <link rel="me" href="mailto:{{ site.email }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="icon" href="{{ '/assets/images/favicon.svg' | relative_url }}" type="image/svg+xml">
+  {% include schema.html %}
 </head>

@@ -1,9 +1,14 @@
 ---
 title: Raccoon Serious Games
+description: >-
+  Jan-Willem Manenschijn was medeoprichter en creatief directeur van Raccoon
+  Serious Games (2018–2025), een bureau voor maatschappelijke serious games.
 summary: Medeoprichter en creatief directeur van een bureau dat serious games en leerervaringen ontwikkelde — met focus op maatschappelijke impact.
 period: 2018 – 2025
 role: Medeoprichter & creatief directeur
 order: 2
+last_modified_at: 2026-08-14
+schema_type: Article
 tags:
   - Serious games
   - Conceptontwikkeling
@@ -13,7 +18,9 @@ external_url: https://raccoon.games
 external_label: raccoon.games
 ---
 
-## Over Raccoon
+Jan-Willem Manenschijn was van 2018 tot 2025 medeoprichter en creatief directeur van Raccoon Serious Games. Het bureau ontwierp serious games en leerervaringen met maatschappelijke impact en stopte per 1 februari 2025.
+
+## Wat was Raccoon Serious Games?
 
 Raccoon Serious Games ontstond uit de samenwerking tussen Jan-Willem, Kristel en Jasper — drie ondernemers met een gedeelde missie voor maatschappelijke impact. Wat begon als een experiment om binnen drie maanden klanten te binden aan een nieuw concept, groeide uit tot een bureau met ruim vijftien collega's.
 

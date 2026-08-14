@@ -1,12 +1,22 @@
 ---
 layout: page
-title: Preludens
+title: Preludens leerervaringen
+description: >-
+  Preludens maakt leerervaringen met stripverhalen en MicroGames. MicroGame
+  Stories circa € 10.000, Short Stories circa € 1.500 — in jullie leeromgeving.
 hero: true
 hero_label: Huidig bedrijf
 hero_title: Preludens
 hero_text: Leerervaringen die mensen voorbereiden op verandering — met stripverhalen, MicroGames en directe feedback in jullie eigen leeromgeving.
 permalink: /preludens/
+last_modified_at: 2026-08-14
+faq_key: preludens
+image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-developer-Jan-willem-Manenschijn-de-creatieve-maan-outline-768x768.png
 ---
+
+{% include answer.html
+  text="Preludens is het bedrijf van Jan-Willem Manenschijn voor leerervaringen die vooruitkijken. Organisaties bereiden een brede doelgroep voor op verandering met stripverhalen, MicroGames en feedback in de eigen leeromgeving — van een volledige MicroGame Story tot een compacte Short Story."
+%}
 
 <p class="lead">
   Via <strong>Preludens</strong> ontwerp en bouw ik leerervaringen voor organisaties die een brede
@@ -16,7 +26,12 @@ permalink: /preludens/
 </p>
 
 <section class="preludens-pillars">
-  <h2>Onze aanpak</h2>
+  <h2>Hoe pakt Preludens een leertraject aan?</h2>
+  <p>
+    De aanpak combineert inleving (verhaal) met activatie (spel) en inzicht
+    (feedback). Daardoor begrijpen deelnemers niet alleen wát er verandert,
+    maar wat dat betekent voor hun eigen werk.
+  </p>
   <div class="card-grid">
     <article class="card">
       <div class="card__icon" aria-hidden="true">🔭</div>
@@ -42,7 +57,7 @@ permalink: /preludens/
 </section>
 
 <section class="preludens-product">
-  <h2>MicroGame Stories</h2>
+  <h2>Wat zijn MicroGame Stories?</h2>
   <p class="section-intro">
     Visuele storytelling om casuïstiek zichtbaar en herkenbaar te maken — gekoppeld aan actieve MicroGames.
   </p>
@@ -65,7 +80,7 @@ permalink: /preludens/
 </section>
 
 <section class="preludens-product preludens-product--alt">
-  <h2>Short Stories</h2>
+  <h2>Wat zijn Short Stories?</h2>
   <p class="section-intro">
     Compacte dilemma’s voor snelle, praktijkgerichte interventies in het leerproces.
   </p>
@@ -86,6 +101,48 @@ permalink: /preludens/
     </p>
   </div>
 </section>
+
+<h2>Wat is het verschil tussen MicroGame Stories en Short Stories?</h2>
+<p>
+  MicroGame Stories zijn een volledige storyline voor meerdere leerdoelen.
+  Short Stories zijn een compacte interventie van een paar dilemma’s.
+  Beide gebruiken verhaal en keuze; ze verschillen in omvang en investering.
+</p>
+
+<table class="compare-table">
+  <caption>Preludens-producten vergeleken</caption>
+  <thead>
+    <tr>
+      <th>Kenmerk</th>
+      <th>MicroGame Stories</th>
+      <th>Short Stories</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Doel</td>
+      <td>Samenhangende leerlijn met herhaling</td>
+      <td>Snelle bewustwording of gedragsvraag</td>
+    </tr>
+    <tr>
+      <td>Omvang</td>
+      <td>Circa 7 hoofdstukken en 5 MicroGames</td>
+      <td>2 tot 5 dilemma’s</td>
+    </tr>
+    <tr>
+      <td>Vorm</td>
+      <td>Stripverhaal plus meerdere spelmechanismen</td>
+      <td>Korte slides met vertakkende keuzes</td>
+    </tr>
+    <tr>
+      <td>Indicatie investering</td>
+      <td>Circa € 10.000 per storyline</td>
+      <td>Circa € 1.500 per verhaal</td>
+    </tr>
+  </tbody>
+</table>
+
+{% include faq.html key="preludens" %}
 
 <div class="cta-band">
   <h2>Samen een leerervaring ontwerpen?</h2>

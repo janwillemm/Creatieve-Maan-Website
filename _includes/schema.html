@@ -1,0 +1,130 @@
+{%- assign author = site.data.author -%}
+{%- assign person_id = site.url | append: "/#jan-willem" -%}
+{%- assign org_id = site.url | append: "/#organization" -%}
+{%- assign website_id = site.url | append: "/#website" -%}
+{%- assign page_url = page.url | absolute_url -%}
+{%- assign page_title = page.title | default: site.title -%}
+{%- assign page_desc = page.description | default: site.description -%}
+{%- assign page_image = page.image | default: author.image -%}
+{%- assign modified = page.last_modified_at | default: page.date | default: site.time -%}
+{%- assign published = page.date | default: modified -%}
+{%- assign faq_key = page.faq_key -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": {{ person_id | jsonify }},
+      "name": {{ author.name | jsonify }},
+      "alternateName": {{ author.brand | jsonify }},
+      "url": {{ author.url | absolute_url | jsonify }},
+      "image": {{ author.image | jsonify }},
+      "jobTitle": {{ author.job_title | jsonify }},
+      "description": {{ author.bio | jsonify }},
+      "email": {{ author.email | jsonify }},
+      "telephone": {{ author.phone_link | jsonify }},
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Houten",
+        "addressRegion": "Utrecht",
+        "addressCountry": "NL"
+      },
+      "alumniOf": {
+        "@type": "CollegeOrUniversity",
+        "name": "Technische Universiteit Delft",
+        "sameAs": "https://www.tudelft.nl"
+      },
+      "worksFor": { "@id": {{ org_id | jsonify }} },
+      "sameAs": {{ author.same_as | jsonify }},
+      "knowsAbout": {{ author.knows_about | jsonify }}
+    },
+    {
+      "@type": ["ProfessionalService", "Organization"],
+      "@id": {{ org_id | jsonify }},
+      "name": {{ author.brand | jsonify }},
+      "alternateName": ["Creatieve Maan", "De Creatieve Maan"],
+      "url": {{ site.url | jsonify }},
+      "logo": {{ "/assets/images/favicon.svg" | absolute_url | jsonify }},
+      "image": {{ author.image | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "email": {{ site.email | jsonify }},
+      "telephone": {{ site.phone_link | jsonify }},
+      "areaServed": {
+        "@type": "Country",
+        "name": "Nederland"
+      },
+      "founder": { "@id": {{ person_id | jsonify }} },
+      "employee": { "@id": {{ person_id | jsonify }} },
+      "sameAs": {{ author.same_as | jsonify }},
+      "knowsAbout": {{ author.knows_about | jsonify }}
+    },
+    {
+      "@type": "WebSite",
+      "@id": {{ website_id | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "name": {{ site.title | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "nl-NL",
+      "publisher": { "@id": {{ org_id | jsonify }} },
+      "author": { "@id": {{ person_id | jsonify }} }
+    },
+    {
+      "@type": {% if page.schema_type %}{{ page.schema_type | jsonify }}{% else %}"WebPage"{% endif %},
+      "@id": {{ page_url | append: "#webpage" | jsonify }},
+      "url": {{ page_url | jsonify }},
+      "name": {{ page_title | jsonify }},
+      "description": {{ page_desc | jsonify }},
+      "inLanguage": "nl-NL",
+      "isPartOf": { "@id": {{ website_id | jsonify }} },
+      "about": { "@id": {{ person_id | jsonify }} },
+      "author": { "@id": {{ person_id | jsonify }} },
+      "publisher": { "@id": {{ org_id | jsonify }} },
+      "datePublished": {{ published | date: "%Y-%m-%d" | jsonify }},
+      "dateModified": {{ modified | date: "%Y-%m-%d" | jsonify }},
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": {{ page_image | jsonify }}
+      }{% if page.schema_type == "ProfilePage" %},
+      "mainEntity": { "@id": {{ person_id | jsonify }} }{% endif %}
+    }{% if faq_key and site.data.faqs[faq_key] %},
+    {
+      "@type": "FAQPage",
+      "@id": {{ page_url | append: "#faq" | jsonify }},
+      "isPartOf": { "@id": {{ page_url | append: "#webpage" | jsonify }} },
+      "inLanguage": "nl-NL",
+      "author": { "@id": {{ person_id | jsonify }} },
+      "mainEntity": [
+        {%- for item in site.data.faqs[faq_key] -%}
+        {
+          "@type": "Question",
+          "name": {{ item.question | jsonify }},
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": {{ item.answer | markdownify | strip_html | strip | jsonify }}
+          }
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ]
+    }{% endif %}{% if page.howto %},
+    {
+      "@type": "HowTo",
+      "@id": {{ page_url | append: "#howto" | jsonify }},
+      "name": {{ page.howto.name | jsonify }},
+      "description": {{ page.howto.description | jsonify }},
+      "inLanguage": "nl-NL",
+      "author": { "@id": {{ person_id | jsonify }} },
+      "step": [
+        {%- for step in page.howto.steps -%}
+        {
+          "@type": "HowToStep",
+          "position": {{ forloop.index }},
+          "name": {{ step.name | jsonify }},
+          "text": {{ step.text | jsonify }}
+        }{% unless forloop.last %},{% endunless %}
+        {%- endfor -%}
+      ]
+    }{% endif %}
+  ]
+}
+</script>

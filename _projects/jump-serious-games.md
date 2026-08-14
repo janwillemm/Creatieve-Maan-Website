@@ -1,9 +1,14 @@
 ---
 title: Jump Serious Games
+description: >-
+  Jan-Willem Manenschijn werkt sinds 2024 bij Jump Serious Games als
+  conceptontwikkelaar, trainer en spelbegeleider voor onderwijs, zorg en bedrijfsleven.
 summary: Conceptontwikkelaar, trainer en spelbegeleider bij een flexibel netwerk dat serious games maakt voor onderwijs, zorg en bedrijfsleven.
 period: 2024 – heden
 role: Conceptontwikkelaar, trainer & spelbegeleider
 order: 1
+last_modified_at: 2026-08-14
+schema_type: Article
 tags:
   - Serious games
   - Training
@@ -13,7 +18,9 @@ external_url: https://jumpseriousgames.nl
 external_label: jumpseriousgames.nl
 ---
 
-## Over Jump
+Jan-Willem Manenschijn werkt sinds 2024 bij Jump Serious Games als conceptontwikkelaar, trainer en spelbegeleider. Jump maakt serious games voor onderwijs, zorg en bedrijfsleven en stelt per opdracht een passend team samen.
+
+## Wat is Jump Serious Games?
 
 Jump Serious Games is ontstaan als spin-off van Trainingsbureau P&A Talentontwikkeling en sinds 2020 een zelfstandige organisatie. Met zo'n 25 jaar ervaring in ervaringsgericht trainen ontwikkelt Jump games voor het **onderwijs**, het **bedrijfsleven** en de **zorg**.
 

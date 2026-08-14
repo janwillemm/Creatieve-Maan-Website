@@ -4,6 +4,7 @@ layout: default
 {% if page.hero %}
 <section class="page-hero">
   <div class="container page-hero__inner">
+    {% include breadcrumbs.html %}
     {% if page.hero_label %}
     <p class="eyebrow">{{ page.hero_label }}</p>
     {% endif %}
@@ -11,10 +12,18 @@ layout: default
     {% if page.hero_text %}
     <p class="lead">{{ page.hero_text }}</p>
     {% endif %}
+    {% include updated.html %}
   </div>
 </section>
 {% endif %}
 
 <div class="container page-content{% unless page.hero %} page-content--top{% endunless %}">
+  {% unless page.hero %}
+    {% include breadcrumbs.html %}
+    {% include updated.html %}
+  {% endunless %}
   {{ content }}
+  {% unless page.hide_author %}
+    {% include author-box.html %}
+  {% endunless %}
 </div>

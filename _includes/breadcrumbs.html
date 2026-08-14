@@ -1,0 +1,11 @@
+{%- unless page.url == '/' or page.url == '/index.html' -%}
+<nav class="breadcrumbs" aria-label="Broodkruimel">
+  <ol>
+    <li><a href="{{ '/' | relative_url }}">Home</a></li>
+    {%- if page.collection == 'projects' -%}
+    <li><a href="{{ '/projecten/' | relative_url }}">Projecten</a></li>
+    {%- endif -%}
+    <li aria-current="page">{{ page.title }}</li>
+  </ol>
+</nav>
+{%- endunless -%}
