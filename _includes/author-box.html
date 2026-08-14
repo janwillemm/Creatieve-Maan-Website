@@ -15,7 +15,8 @@
       <a href="{{ author.url | relative_url }}">{{ author.name }}</a>
     </p>
     <p class="author-box__role">{{ author.job_title }}</p>
-    <p class="author-box__bio">{{ author.tagline }} {{ author.education }}.</p>
+    <p class="author-box__bio">{{ author.tagline }}</p>
+    <p class="author-box__meta">{{ author.education }} · {{ author.location }}</p>
     <p class="author-box__links">
       <a href="{{ author.url | relative_url }}">Meer over Jan-Willem</a>
       <span aria-hidden="true">·</span>
