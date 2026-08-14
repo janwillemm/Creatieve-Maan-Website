@@ -1,0 +1,47 @@
+- id: serious-games
+  title: Fysieke & digitale ervaringen die je bijblijven
+  short: Serious games
+  nav_title: Serious games
+  url: /serious-games/
+  emoji: "🎲"
+  lead: >-
+    Maatwerk serious games en e-learnings die complexe vraagstukken invoelbaar
+    maken — met een vast proces, een duidelijke prijs en één aanspreekpunt.
+  description: >-
+    Fysieke en digitale ervaringen op maat: bordspel, escape, digitale game of
+    e-learning. Ontworpen zodat mensen ná afloop anders kijken, praten of handelen.
+  audience: Organisaties met een veranderings-, leer- of bewustwordingsvraag
+  cta_label: Bekijk serious games
+  cta_url: /serious-games/
+
+- id: tools
+  title: Interactieve tools die inzicht geven en je efficiënter laten werken
+  short: Tools
+  nav_title: Tools
+  url: /tools/
+  emoji: "🛠️"
+  lead: >-
+    Digitale tools, snel ontwikkeld met AI plus inhoudelijke expertise — van
+    idee tot werkend prototype dat landt in jullie praktijk.
+  description: >-
+    Interactieve hulpmiddelen die inzicht geven en werk efficiënter maken.
+    Gebouwd met AI, getest met professionals, doorontwikkeld op echte feedback.
+  audience: Teams en professionals die een proces slimmer of speelser willen maken
+  cta_label: Bekijk tools
+  cta_url: /tools/
+
+- id: trainingen
+  title: Inspirerende trainingen, workshops en presentaties
+  short: Trainingen
+  nav_title: Trainingen
+  url: /aan-de-slag/
+  emoji: "🎤"
+  lead: >-
+    Standaardproducten die je direct kunt boeken: workshops en trainingen
+    die mensen laten ervaren in plaats van alleen informeren.
+  description: >-
+    Boekbare sessies op locatie of online — van bewustwording tot praktische
+    AI-vaardigheden. Landelijk vanuit Houten.
+  audience: Teams, scholen, gemeenten, HR en veranderaars
+  cta_label: Bekijk trainingen
+  cta_url: /aan-de-slag/

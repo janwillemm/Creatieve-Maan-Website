@@ -1,9 +1,9 @@
 title: De Creatieve M(a)an
-tagline: Serious games, conceptontwikkeling en training
+tagline: Ik ontwerp ervaringen die complexiteit inzichtelijk maken en mensen activeren.
 description: >-
-  Jan-Willem Manenschijn ontwerpt serious games en leerervaringen die mensen
-  in beweging brengen. Freelance conceptontwikkelaar en trainer vanuit Houten
-  (Utrecht): workshops, maatwerkspellen en Preludens.
+  Jan-Willem Manenschijn ontwerpt ervaringen die complexiteit inzichtelijk
+  maken en mensen activeren. Serious games, digitale tools en trainingen
+  vanuit Houten (Utrecht).
 url: "https://creatievemaan.nl"
 baseurl: ""
 lang: nl
@@ -67,25 +67,29 @@ defaults:
 navigation:
   - title: Home
     url: /
-  - title: Preludens
-    url: /preludens/
+  - title: Serious games
+    url: /serious-games/
+  - title: Tools
+    url: /tools/
+  - title: Trainingen
+    url: /aan-de-slag/
   - title: Over mij
     url: /over-mij/
-  - title: Aan de slag
-    url: /aan-de-slag/
-  - title: Projecten
-    url: /projecten/
 
 footer_links:
   - title: Home
     url: /
-  - title: Preludens
-    url: /preludens/
+  - title: Serious games
+    url: /serious-games/
+  - title: Tools
+    url: /tools/
+  - title: Trainingen
+    url: /aan-de-slag/
   - title: Over mij
     url: /over-mij/
-  - title: Aan de slag
-    url: /aan-de-slag/
   - title: Projecten
     url: /projecten/
+  - title: Preludens
+    url: /preludens/
   - title: Wat is een serious game?
     url: /wat-is-een-serious-game/

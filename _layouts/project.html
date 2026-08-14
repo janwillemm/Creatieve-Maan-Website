@@ -13,6 +13,13 @@ layout: default
       {% if page.role %}
       <p class="project-detail__role"><strong>Rol:</strong> {{ page.role }}</p>
       {% endif %}
+      {% if page.dienst == "serious-games" %}
+      <p class="project-detail__role"><a href="{{ '/serious-games/' | relative_url }}">Serious games</a></p>
+      {% elsif page.dienst == "tools" %}
+      <p class="project-detail__role"><a href="{{ '/tools/' | relative_url }}">Tools</a></p>
+      {% elsif page.dienst == "trainingen" %}
+      <p class="project-detail__role"><a href="{{ '/aan-de-slag/' | relative_url }}">Trainingen</a></p>
+      {% endif %}
       {% if page.tags %}
       <ul class="tag-list">
         {% for tag in page.tags %}

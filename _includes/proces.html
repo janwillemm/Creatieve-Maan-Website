@@ -1,0 +1,12 @@
+{%- assign proces = include.proces | default: site.data.proces -%}
+<ol class="proces-list">
+  {% for step in proces.steps %}
+  <li class="proces-list__item">
+    <span class="proces-list__num" aria-hidden="true">{{ forloop.index }}</span>
+    <div>
+      <h3>{{ step.name }}</h3>
+      <p>{{ step.text }}</p>
+    </div>
+  </li>
+  {% endfor %}
+</ol>

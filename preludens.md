@@ -5,7 +5,7 @@ description: >-
   Preludens maakt leerervaringen met stripverhalen en MicroGames. MicroGame
   Stories circa € 10.000, Short Stories circa € 1.500 — in jullie leeromgeving.
 hero: true
-hero_label: Huidig bedrijf
+hero_label: E-learning binnen serious games
 hero_title: Preludens
 hero_text: Leerervaringen die mensen voorbereiden op verandering — met stripverhalen, MicroGames en directe feedback in jullie eigen leeromgeving.
 permalink: /preludens/
@@ -15,14 +15,15 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
 ---
 
 {% include answer.html
-  text="Preludens is het bedrijf van Jan-Willem Manenschijn voor leerervaringen die vooruitkijken. Organisaties bereiden een brede doelgroep voor op verandering met stripverhalen, MicroGames en feedback in de eigen leeromgeving — van een volledige MicroGame Story tot een compacte Short Story."
+  text="Preludens is het e-learningproduct van Jan-Willem Manenschijn binnen serious games. Organisaties bereiden een brede doelgroep voor op verandering met stripverhalen, MicroGames en feedback in de eigen leeromgeving — van een volledige MicroGame Story tot een compacte Short Story."
 %}
 
 <p class="lead">
-  Via <strong>Preludens</strong> ontwerp en bouw ik leerervaringen voor organisaties die een brede
+  Preludens hoort bij
+  <a href="{{ '/serious-games/' | relative_url }}">maatwerk serious games en e-learnings</a>.
+  Via dit product ontwerp en bouw ik leerervaringen voor organisaties die een brede
   doelgroep willen meenemen in wat er komen gaat. Geen passieve slides, maar verhalen
-  en spellen die aansluiten bij de praktijk — en vooruitkijken naar wat verandert voor
-  het eigen handelen.
+  en spellen die aansluiten bij de praktijk.
 </p>
 
 <section class="preludens-pillars">
@@ -148,7 +149,8 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
   <h2>Samen een leerervaring ontwerpen?</h2>
   <p>
     Heb je een verandering, thema of leerdoel waar je een groep op wilt voorbereiden?
-    Dan denk ik graag mee welke vorm past: MicroGame Story, Short Story of een combinatie.
+    Dan denken we mee welke vorm past: MicroGame Story, Short Story of ander
+    <a href="{{ '/serious-games/' | relative_url }}" style="color: inherit; text-decoration: underline;">maatwerk</a>.
   </p>
   <a class="btn btn--primary" href="mailto:{{ site.email }}">Mail Jan-Willem</a>
 </div>

@@ -1,0 +1,11 @@
+<div class="card-grid dienst-grid">
+  {% for dienst in site.data.diensten %}
+  <article class="card dienst-card">
+    <div class="card__icon" aria-hidden="true">{{ dienst.emoji }}</div>
+    <p class="dienst-card__label">{{ dienst.short }}</p>
+    <h3>{{ dienst.title }}</h3>
+    <p>{{ dienst.lead }}</p>
+    <a class="card__link" href="{{ dienst.url | relative_url }}">{{ dienst.cta_label }} →</a>
+  </article>
+  {% endfor %}
+</div>

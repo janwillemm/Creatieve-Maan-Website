@@ -2,12 +2,12 @@
 layout: page
 title: Over Jan-Willem Manenschijn
 description: >-
-  Jan-Willem Manenschijn is serious game designer en trainer uit Houten.
-  TU Delft, medeoprichter Raccoon Serious Games, nu Preludens en Jump.
+  Jan-Willem Manenschijn ontwerpt ervaringen die complexiteit inzichtelijk
+  maken en mensen activeren. TU Delft, Raccoon Serious Games, Houten.
 hero: true
 hero_label: Over mij
 hero_title: Jan-Willem Manenschijn
-hero_text: Serious game designer, conceptontwikkelaar en trainer — met een achtergrond in Technische Informatica en eerstehands ervaring als ondernemer.
+hero_text: Ik ontwerp ervaringen die complexiteit inzichtelijk maken en mensen activeren — met een achtergrond in Technische Informatica en eerstehands ervaring als ondernemer.
 permalink: /over-mij/
 last_modified_at: 2026-08-14
 faq_key: over_mij
@@ -36,15 +36,15 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
   </div>
   <div class="prose">
     {% include answer.html
-      text="Jan-Willem Manenschijn is serious game designer, conceptontwikkelaar en trainer. Hij studeerde Technische Informatica aan de TU Delft, was medeoprichter en creatief directeur van Raccoon Serious Games (2018–2025) en werkt nu via De Creatieve M(a)an, Preludens en Jump Serious Games."
+      text="Jan-Willem Manenschijn ontwerpt ervaringen die complexiteit inzichtelijk maken en mensen activeren. Hij studeerde Technische Informatica aan de TU Delft, was medeoprichter en creatief directeur van Raccoon Serious Games (2018–2025) en werkt nu via De Creatieve M(a)an: serious games, digitale tools en trainingen."
     %}
 
     <h2>Wie is Jan-Willem Manenschijn?</h2>
     <p>
-      Ik ben Jan-Willem — De Creatieve M(a)an. Ik ontwerp ervaringen die mensen
-      helpen anders te kijken, denken en handelen. Dat doe ik op het snijvlak van
-      technologie, psychologie en onderwijs: complexe vraagstukken worden een
-      spel, een escape of een digitale leerervaring.
+      Ik ben Jan-Willem — De Creatieve M(a)an. Ik ontwerp ervaringen die
+      complexiteit inzichtelijk maken en mensen activeren. Dat doe ik op het
+      snijvlak van technologie, psychologie en onderwijs: lastige vraagstukken
+      worden een spel, een tool of een training.
     </p>
     <p>
       Ik breng energie in elk traject. Of het nu gaat om een serious game,
@@ -100,13 +100,14 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
       in nieuwe samenwerkingen.
     </p>
     <p>
-      Nu run ik <strong><a href="{{ '/preludens/' | relative_url }}">Preludens</a></strong> —
-      leerervaringen met stripverhalen en MicroGames in de eigen leeromgeving van
-      opdrachtgevers. Daarnaast werk ik als conceptontwikkelaar, trainer en
-      spelbegeleider bij
-      <a href="{{ '/projecten/jump-serious-games/' | relative_url }}">Jump Serious Games</a>
-      en als creatief techneut bij InteractGGZ, waar ideeën uit de jeugd-GGZ
-      vertaald worden naar spellen en tools.
+      Nu werk ik via <strong>De Creatieve M(a)an</strong> in drie lijnen:
+      <a href="{{ '/serious-games/' | relative_url }}">serious games en e-learnings</a>
+      (onder meer via <a href="{{ '/preludens/' | relative_url }}">Preludens</a>),
+      <a href="{{ '/tools/' | relative_url }}">digitale tools</a> (onder meer bij
+      InteractGGZ) en
+      <a href="{{ '/aan-de-slag/' | relative_url }}">trainingen</a>.
+      Daarnaast ben ik conceptontwikkelaar, trainer en spelbegeleider bij
+      <a href="{{ '/projecten/jump-serious-games/' | relative_url }}">Jump Serious Games</a>.
     </p>
     <p>
       Sinds 2020 ben ik bestuurslid van
@@ -140,8 +141,8 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
     Conceptontwikkelaar, trainer en spelbegeleider.
   </li>
   <li>
-    <strong>2025–heden · De Creatieve M(a)an &amp; Preludens</strong> —
-    Freelance ontwerp, training en digitale leerervaringen.
+    <strong>2025–heden · De Creatieve M(a)an</strong> —
+    Serious games, digitale tools en trainingen; e-learnings via Preludens.
   </li>
 </ol>
 

@@ -1,14 +1,15 @@
 # De Creatieve M(a)an
 
-> Jan-Willem Manenschijn ontwerpt serious games, leerervaringen en trainingen die mensen in beweging brengen. Freelance conceptontwikkelaar en trainer vanuit Houten (Utrecht), Nederland.
+> Jan-Willem Manenschijn ontwerpt ervaringen die complexiteit inzichtelijk maken en mensen activeren. Serious games, digitale tools en trainingen vanuit Houten (Utrecht), Nederland.
 
-De Creatieve M(a)an is het persoonlijke werk van Jan-Willem. Hij studeerde Technische Informatica aan de TU Delft, was medeoprichter en creatief directeur van Raccoon Serious Games (2018–2025) en werkt nu via Preludens, Jump Serious Games en De Creatieve M(a)an.
+De Creatieve M(a)an is het persoonlijke werk van Jan-Willem. Hij studeerde Technische Informatica aan de TU Delft, was medeoprichter en creatief directeur van Raccoon Serious Games (2018–2025) en werkt nu via De Creatieve M(a)an, Preludens, Jump Serious Games en InteractGGZ.
 
 ## Kernfeiten
 
 - Naam: Jan-Willem Manenschijn
 - Merk: De Creatieve M(a)an
-- Rol: serious game designer, conceptontwikkelaar, trainer en spelbegeleider
+- Rol: serious game designer, conceptontwikkelaar, trainer
+- Brandtag: Ik ontwerp ervaringen die complexiteit inzichtelijk maken en mensen activeren.
 - Locatie: Houten, Utrecht, Nederland (werkt landelijk)
 - E-mail: jan-willem@creatievemaan.nl
 - Telefoon: +31 6 28 08 77 58
@@ -18,20 +19,27 @@ De Creatieve M(a)an is het persoonlijke werk van Jan-Willem. Hij studeerde Techn
 
 ## Pagina's
 
-- [Home](https://creatievemaan.nl/): Overzicht van werkwijze, Preludens en projecten
+- [Home](https://creatievemaan.nl/): Drie diensten en uitgelichte cases
+- [Serious games](https://creatievemaan.nl/serious-games/): Maatwerk ervaringen en e-learnings
+- [Tools](https://creatievemaan.nl/tools/): Interactieve digitale hulpmiddelen, vaak met AI
+- [Trainingen](https://creatievemaan.nl/aan-de-slag/): Boekbare workshops en trainingen
 - [Wat is een serious game?](https://creatievemaan.nl/wat-is-een-serious-game/): Uitleg vanuit eerstehands ervaring als ontwerper
 - [Over Jan-Willem Manenschijn](https://creatievemaan.nl/over-mij/): Achtergrond, opleiding, Raccoon, Jump en aanpak
-- [Aan de slag](https://creatievemaan.nl/aan-de-slag/): Boekbare spellen, workshops en maatwerk
-- [Preludens](https://creatievemaan.nl/preludens/): Leerervaringen met stripverhalen en MicroGames
-- [Projecten](https://creatievemaan.nl/projecten/): Preludens, Jump Serious Games, Raccoon Serious Games
+- [Preludens](https://creatievemaan.nl/preludens/): E-learnings met stripverhalen en MicroGames
+- [Projecten](https://creatievemaan.nl/projecten/): Cases per dienst plus Jump en Raccoon
 
-## Aanbod
+## Diensten
 
-- Preludens MicroGame Stories (circa € 10.000 per storyline) en Short Stories (circa € 1.500)
-- Workshop laaggeletterdheid (tot circa 50 deelnemers; koffer en caravan)
-- Bordspel Een eigen thuis (dak- en thuisloosheid)
-- Woordenweide (woordenschat-app voor kleuters)
-- Maatwerk serious games, escape rooms, training en facilitatie
+1. Fysieke en digitale ervaringen die je bijblijven (serious games) — maatwerk, vast proces, duidelijke prijs, één aanspreekpunt, 10+ jaar, netwerk van makers. Cases: PWN, AI Game, laaggeletterdheid, Een eigen thuis.
+2. Interactieve tools die inzicht geven en je efficiënter laten werken — ontwikkeld met AI. Cases: EMDR-toolkit, deze website.
+3. Inspirerende trainingen, workshops en presentaties — standaard, direct te boeken: workshop laaggeletterdheid, workshop Een eigen thuis, training Spelend impact maken, training Effectief en pragmatisch werken met AI.
+
+## Prijzen
+
+- Preludens MicroGame Stories: circa € 10.000 per storyline
+- Preludens Short Stories: circa € 1.500 per verhaal
+- Fysiek of digitaal maatwerk: vaste prijs na intake
+- Trainingen en workshops: prijs in het eerste gesprek
 
 ## Optioneel
 

@@ -6,7 +6,8 @@ description: >-
 summary: Medeoprichter en creatief directeur van een bureau dat serious games en leerervaringen ontwikkelde — met focus op maatschappelijke impact.
 period: 2018 – 2025
 role: Medeoprichter & creatief directeur
-order: 2
+featured: false
+order: 51
 last_modified_at: 2026-08-14
 schema_type: Article
 tags:

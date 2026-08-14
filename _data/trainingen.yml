@@ -1,0 +1,75 @@
+- title: Workshop laaggeletterdheid
+  emoji: "📖"
+  type: Workshop · bewustwording
+  audience: Gemeenten, bibliotheken, zorg en onderwijs — tot 50 deelnemers
+  duration: Rondes van circa 15 minuten plus nagesprek
+  description: >-
+    Een energieke workshop waarin deelnemers ervaren hoe het is om vast te lopen
+    in taal — iets waar dagelijks 2,5 miljoen Nederlanders mee te maken hebben.
+    Gebaseerd op de bekroonde Great Holiday Escape (caravan) en de handzame
+    escape koffer: je voelt de frustratie, daarna praten we over begrip en handelen.
+  highlights:
+    - Workshop op maat voor groepen tot 50 personen (parallelle spelrondes)
+    - Ontstaan uit de Raccoon-caravan (NRC: “parel van bewustwording”) en de koffer met Stichting Lezen en Schrijven
+    - Begeleiding van voorbereiding tot nagesprek
+    - Geschikt voor Week van Lezen en Schrijven, teamdagen en bewustwordingscampagnes
+  links:
+    - url: /projecten/laaggeletterdheid/
+      label: Case laaggeletterdheid
+      internal: true
+    - url: https://raccoon.games/escapebox-stichting-lezen-schrijven/
+      label: Escape koffer (Raccoon)
+    - url: https://raccoon.games/laaggeletterdheid-escape-caravan-great-holiday-escape/
+      label: Escape caravan (Raccoon)
+  order: 1
+
+- title: Workshop Een eigen thuis
+  emoji: "🏠"
+  type: Workshop · fysiek bordspel
+  audience: Teams, scholen en maatschappelijke organisaties
+  duration: Speelsessie plus begeleide reflectie
+  description: >-
+    Een ervaringsgerichte workshop met het bordspel Een eigen thuis. Spelers
+    stappen in een situatie die dak- en thuisloosheid nabootst en navigeren
+    door opvang en regelingen — met ruimte voor gesprek achteraf.
+  highlights:
+    - Fysiek spel in een kartonnen koker (spelmat, kaarten en materialen)
+    - Begeleiding plus reflectievragen, zodat de ervaring landt
+    - Ontwikkeld bij Raccoon Serious Games; ik begeleid het spel nog steeds
+  links:
+    - url: /projecten/een-eigen-thuis/
+      label: Case Een eigen thuis
+      internal: true
+    - url: https://raccoon.games/iedereen-een-thuis-serious-game/
+      label: Video & handleiding (Raccoon)
+  order: 2
+
+- title: Training Spelend impact maken
+  emoji: "🎯"
+  type: Training · trainers en veranderaars
+  audience: Trainers, HR, docenten en veranderaars
+  duration: Dagdeel of maatwerkdag, in overleg
+  description: >-
+    Hoe zet je spelen in voor echte verandering — zonder dat het een gimmick
+    wordt? In deze training leer je wanneer een spel werkt, hoe je een groep
+    begeleidt en hoe je reflectie koppelt aan de praktijk.
+  highlights:
+    - Van leerdoel naar speelbare werkvorm
+    - Groepsdynamiek, veiligheid en nagesprek
+    - Direct toepasbaar in je eigen sessies of teamdagen
+  order: 3
+
+- title: Training Effectief en pragmatisch werken met AI
+  emoji: "🤖"
+  type: Training · praktische vaardigheden
+  audience: Kenniswerkers, teams en leidinggevenden
+  duration: Dagdeel of maatwerkdag, in overleg
+  description: >-
+    Geen hype, wel handelingsperspectief. Je leert AI inzetten voor concreet
+    werk: structureren, prototypen, teksten en processen versnellen — met oog
+    voor kwaliteit, privacy en wat je beter zelf blijft doen.
+  highlights:
+    - Praktische werkwijze in plaats van tool-overzicht
+    - Oefenen met eigen vraagstukken
+    - Aandacht voor grenzen: wat AI wel en niet moet doen
+  order: 4

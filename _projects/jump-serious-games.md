@@ -6,7 +6,8 @@ description: >-
 summary: Conceptontwikkelaar, trainer en spelbegeleider bij een flexibel netwerk dat serious games maakt voor onderwijs, zorg en bedrijfsleven.
 period: 2024 – heden
 role: Conceptontwikkelaar, trainer & spelbegeleider
-order: 1
+featured: false
+order: 50
 last_modified_at: 2026-08-14
 schema_type: Article
 tags:

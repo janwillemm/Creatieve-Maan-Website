@@ -21,9 +21,10 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
 <p class="lead">
   Ik ontwerp en begeleid serious games sinds 2015: eerst met escape rooms via Popup-Escape,
   daarna als medeoprichter van <a href="{{ '/projecten/raccoon-serious-games/' | relative_url }}">Raccoon Serious Games</a>,
-  nu via <a href="{{ '/preludens/' | relative_url }}">Preludens</a>,
-  <a href="{{ '/projecten/jump-serious-games/' | relative_url }}">Jump Serious Games</a>
-  en De Creatieve M(a)an. Onderstaande uitleg komt uit die praktijk.
+  nu via <a href="{{ '/serious-games/' | relative_url }}">De Creatieve M(a)an</a>,
+  <a href="{{ '/preludens/' | relative_url }}">Preludens</a> en
+  <a href="{{ '/projecten/jump-serious-games/' | relative_url }}">Jump Serious Games</a>.
+  Onderstaande uitleg komt uit die praktijk.
 </p>
 
 <h2>Wat is een serious game in één zin?</h2>
@@ -102,7 +103,7 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
 <ul>
   <li><strong>Laaggeletterdheid</strong> — in circa 15 minuten ervaren hoe het is om vast te lopen in taal; daarna het gesprek over begrip en handelen. Gebaseerd op de escape caravan die NRC een “parel van bewustwording” noemde.</li>
   <li><strong>Dak- en thuisloosheid</strong> — het bordspel <em>Een eigen thuis</em> laat teams navigeren door opvang en regelingen.</li>
-  <li><strong>Verandering op het werk</strong> — via Preludens: stripverhalen plus MicroGames in de eigen leeromgeving.</li>
+  <li><strong>Verandering op het werk</strong> — via <a href="{{ '/preludens/' | relative_url }}">Preludens</a>: stripverhalen plus MicroGames in de eigen leeromgeving.</li>
 </ul>
 <p>
   Een presentatie of folder is vaak goedkoper. Die kies je als de boodschap
@@ -122,8 +123,10 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
   <li><strong>Begeleide sessie</strong> — een bestaand of maatwerkspel plus trainer, zodat de reflectie niet vrijblijvend is.</li>
 </ul>
 <p>
-  Op <a href="{{ '/aan-de-slag/' | relative_url }}">Aan de slag</a> staan vormen
-  die je bij mij kunt boeken of laten ontwerpen.
+  Op <a href="{{ '/serious-games/' | relative_url }}">serious games</a> staat
+  hoe maatwerk werkt; op
+  <a href="{{ '/aan-de-slag/' | relative_url }}">trainingen</a> wat je direct
+  kunt boeken.
 </p>
 
 <h2>Hoe ontwerp je een serious game?</h2>
@@ -164,8 +167,10 @@ image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-deve
 <div class="cta-band" style="margin-top: 3rem;">
   <h2>Wil je een serious game inzetten?</h2>
   <p>
-    Dan kijken we welk doel je hebt en welke vorm daarbij past — een bestaande
-    workshop, een maatwerkspel of een digitale leerervaring.
+    Dan kijken we welk doel je hebt en welke vorm daarbij past — een
+    <a href="{{ '/aan-de-slag/' | relative_url }}">bestaande workshop</a>,
+    een <a href="{{ '/serious-games/' | relative_url }}">maatwerkspel</a>
+    of een digitale leerervaring.
   </p>
-  <a class="btn btn--primary" href="mailto:{{ site.email }}">Mail Jan-Willem</a>
+  <a class="btn btn--primary" href="{{ '/serious-games/' | relative_url }}">Naar serious games</a>
 </div>

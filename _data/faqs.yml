@@ -2,34 +2,36 @@ home:
   - question: Wat doet De Creatieve M(a)an?
     answer: >-
       De Creatieve M(a)an is het werk van Jan-Willem Manenschijn: hij ontwerpt
-      en begeleidt serious games, leerervaringen en trainingen die mensen in
-      beweging brengen. Dat kan een workshop zijn, een maatwerkspel of een
-      digitale leerervaring via Preludens.
+      ervaringen die complexiteit inzichtelijk maken en mensen activeren. Dat
+      kan een maatwerk serious game of e-learning zijn, een digitale tool of
+      een boekbare training, workshop of presentatie.
+  - question: Welke diensten kan ik afnemen?
+    answer: >-
+      Drie diensten. [Serious games](/serious-games/): fysieke en digitale
+      maatwerkervaringen. [Tools](/tools/): interactieve hulpmiddelen, vaak
+      met AI. [Trainingen](/aan-de-slag/): standaard workshops en trainingen
+      die je direct kunt boeken.
   - question: Wat is een serious game?
     answer: >-
       Een serious game is een spel dat is ontworpen voor een serieus doel —
       leren, bewustwording of gedragsverandering — niet alleen voor vermaak.
       Deelname voelt als spelen; de opbrengst is inzicht, gesprek of nieuwe
       vaardigheden. [Uitleg van een ontwerper](/wat-is-een-serious-game/).
-  - question: Voor wie werkt Jan-Willem?
-    answer: >-
-      Voor organisaties die een groep willen laten ervaren in plaats van alleen
-      informeren: onderwijs, zorg, gemeenten, bibliotheken en bedrijven.
-      Typische vragen gaan over verandering, samenwerking, laaggeletterdheid
-      of maatschappelijke bewustwording.
   - question: Hoe neem ik contact op?
     answer: >-
       Mail naar [jan-willem@creatievemaan.nl](mailto:jan-willem@creatievemaan.nl)
       of bel [06 28 08 77 58](tel:+31628087758). In een kort gesprek kijken we
-      welk spel, welke sessie of welk leertraject past.
+      welke dienst past.
 
 over_mij:
   - question: Wie is Jan-Willem Manenschijn?
     answer: >-
       Jan-Willem Manenschijn is serious game designer, conceptontwikkelaar en
-      trainer uit Houten (Utrecht). Hij studeerde Technische Informatica aan de
-      TU Delft, was medeoprichter en creatief directeur van Raccoon Serious Games
-      en werkt nu via De Creatieve M(a)an, Preludens en Jump Serious Games.
+      trainer uit Houten (Utrecht). Hij ontwerpt ervaringen die complexiteit
+      inzichtelijk maken en mensen activeren. Hij studeerde Technische
+      Informatica aan de TU Delft, was medeoprichter en creatief directeur van
+      Raccoon Serious Games en werkt nu via De Creatieve M(a)an, Preludens,
+      Jump Serious Games en InteractGGZ.
   - question: Welke opleiding en ervaring heeft hij?
     answer: >-
       Hij studeerde Technische Informatica aan de TU Delft (2011–2016) en deed
@@ -39,40 +41,85 @@ over_mij:
   - question: Waarin verschilt zijn aanpak?
     answer: >-
       Hij combineert een technische achtergrond met groepsdynamiek: eerst de
-      vraag achter de vraag, dan een speelbare ervaring, daarna reflectie.
-      De groep staat centraal, niet het script. Hij werkt het liefst aan
-      projecten met maatschappelijke impact.
+      vraag achter de vraag, dan een speelbare ervaring of tool, daarna
+      reflectie of doorontwikkeling. Eén aanspreekpunt, een vast proces, en
+      een netwerk van makers. De groep of de gebruiker staat centraal, niet
+      het script.
 
 aan_de_slag:
-  - question: Welke serious games kan ik bij Jan-Willem boeken?
+  - question: Welke trainingen kan ik bij Jan-Willem boeken?
     answer: >-
-      Direct inzetbaar zijn onder meer de workshop laaggeletterdheid, het
-      bordspel Een eigen thuis, digitale leerervaringen via Preludens en de
-      app Woordenweide. Daarnaast begeleidt hij maatwerk-sessies, escape rooms
-      en trainingen.
+      Vier standaardproducten: de workshop laaggeletterdheid, de workshop Een
+      eigen thuis, de training Spelend impact maken en de training Effectief
+      en pragmatisch werken met AI. Presentaties op maat zijn ook mogelijk.
+  - question: Wat kost een workshop of training?
+    answer: >-
+      De prijs hangt af van groepsgrootte, locatie en duur. In het eerste
+      gesprek krijg je een duidelijk bedrag. Er is geen open
+      uurtje-factuurtje-traject voor deze standaardproducten.
   - question: Hoe lang duurt een sessie?
     answer: >-
       Dat hangt af van de vorm. De workshop laaggeletterdheid werkt met rondes
       van circa 15 minuten plus nagesprek, en is schaalbaar tot ongeveer 50
-      deelnemers. Voor maatwerkspellen en trainingen stemmen we duur en groepsgrootte
-      af in de kennismaking.
+      deelnemers. Voor de andere trainingen stemmen we duur en groepsgrootte
+      af bij het boeken.
   - question: Werk je landelijk?
     answer: >-
-      Ja. Jan-Willem werkt vanuit Houten (Utrecht) en begeleidt sessies op locatie
-      of online, verspreid over Nederland.
-  - question: Hoe ziet de samenwerking eruit?
+      Ja. Jan-Willem werkt vanuit Houten (Utrecht) en begeleidt sessies op
+      locatie of online, verspreid over Nederland.
+
+serious_games:
+  - question: Wat is het verschil tussen een serious game en een training?
     answer: >-
-      Eerst een kennismaking over vraag, doelgroep en gewenst effect. Daarna
-      kiezen we de spelvorm, spelen en reflecteren we, en kijken we of er
-      vervolg nodig is — doorontwikkeling, training of een maatwerkconcept.
+      Een [serious game](/serious-games/) is een maatwerkervaring of
+      e-learning die we ontwerpen. Een [training](/aan-de-slag/) is een
+      standaardproduct dat je direct boekt. Soms is de workshop de vorm;
+      soms moet er eerst een spel worden gemaakt.
+  - question: Wat kost een maatwerk serious game?
+    answer: >-
+      Short Stories via Preludens kosten indicatief circa € 1.500. Een
+      MicroGame Story circa € 10.000. Fysiek of digitaal maatwerk krijgt een
+      vaste prijs na de intake, als de scope helder is.
+  - question: Hoe lang duurt een ontwerptraject?
+    answer: >-
+      Dat volgt het vaste proces: kennismaking, vraag scherp, concept,
+      testen, productie, overdracht. Een Short Story is sneller dan een
+      volledig bordspel. In het eerste gesprek krijg je een realistische
+      doorlooptijd.
+  - question: Werk je alleen of met een team?
+    answer: >-
+      Jij hebt één aanspreekpunt: Jan-Willem. Productie gebeurt met een
+      netwerk van creatieve zzp’ers en partnerorganisaties, zodat vormgeving,
+      inhoud en techniek kloppen.
+
+tools:
+  - question: Wat voor tools maak je?
+    answer: >-
+      Digitale hulpmiddelen die inzicht geven of werk efficiënter maken.
+      Voorbeelden: een [EMDR-toolkit](/projecten/emdr-toolkit/) met
+      kindgerichte werkgeheugenactiviteiten, en [deze website](/projecten/creatieve-maan-website/).
+  - question: Hoe snel staat er iets?
+    answer: >-
+      Vaak een prototype in dagen, geen maanden. AI versnelt het bouwen;
+      testers uit de praktijk bepalen of het blijft.
+  - question: Is dit hetzelfde als een e-learning?
+    answer: >-
+      Nee. Een e-learning (Preludens, MicroGame Stories) hoort bij
+      [serious games](/serious-games/). Een tool is een herhaalbaar
+      hulpmiddel in een proces — een balk, een app, een site, een beslisboom.
+  - question: Voor wie bouw je tools?
+    answer: >-
+      Voor professionals en teams met een concreet knelpunt, onder meer in
+      de GGZ, het onderwijs en kenniswerk. Samenwerking loopt onder andere
+      via InteractGGZ.
 
 preludens:
   - question: Wat is Preludens?
     answer: >-
-      Preludens is het bedrijf van Jan-Willem Manenschijn voor leerervaringen
-      die vooruitkijken. Organisaties bereiden een brede doelgroep voor op
-      verandering met stripverhalen, MicroGames en directe feedback in de
-      eigen leeromgeving.
+      Preludens is het e-learningproduct van Jan-Willem Manenschijn binnen
+      [serious games](/serious-games/). Organisaties bereiden een brede
+      doelgroep voor op verandering met stripverhalen, MicroGames en
+      directe feedback in de eigen leeromgeving.
   - question: Wat is het verschil tussen MicroGame Stories en Short Stories?
     answer: >-
       MicroGame Stories zijn volledige storylines (circa 7 hoofdstukken en

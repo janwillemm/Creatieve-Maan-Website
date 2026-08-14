@@ -1,0 +1,17 @@
+{%- if include.dienst -%}
+  {%- assign all_cases = site.projects | where: "dienst", include.dienst | sort: "order" -%}
+{%- else -%}
+  {%- assign all_cases = site.projects | where_exp: "item", "item.featured == true" | sort: "order" -%}
+{%- endif -%}
+{%- assign limit = include.limit | default: 6 -%}
+<div class="card-grid">
+  {% for project in all_cases limit: limit %}
+  <article class="card project-card">
+    <div class="project-card__accent project-card__accent--{% cycle 'coral', 'mint' %}"></div>
+    <p class="project-card__meta">{{ project.period }}{% if project.dienst_label %} · {{ project.dienst_label }}{% endif %}</p>
+    <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+    <p>{{ project.summary }}</p>
+    <a class="card__link" href="{{ project.url | relative_url }}">Lees meer →</a>
+  </article>
+  {% endfor %}
+</div>
