@@ -1,0 +1,4 @@
+<div class="answer-block"{% if include.id %} id="{{ include.id }}"{% endif %}>
+  <p class="answer-block__label">{{ include.label | default: "Kort antwoord" }}</p>
+  <p class="answer-block__text">{{ include.text }}</p>
+</div>

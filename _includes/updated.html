@@ -1,0 +1,23 @@
+{%- assign modified = page.last_modified_at | default: page.date -%}
+{%- if modified -%}
+{%- assign maandnr = modified | date: "%-m" -%}
+{%- case maandnr -%}
+  {%- when "1" -%}{%- assign maand = "januari" -%}
+  {%- when "2" -%}{%- assign maand = "februari" -%}
+  {%- when "3" -%}{%- assign maand = "maart" -%}
+  {%- when "4" -%}{%- assign maand = "april" -%}
+  {%- when "5" -%}{%- assign maand = "mei" -%}
+  {%- when "6" -%}{%- assign maand = "juni" -%}
+  {%- when "7" -%}{%- assign maand = "juli" -%}
+  {%- when "8" -%}{%- assign maand = "augustus" -%}
+  {%- when "9" -%}{%- assign maand = "september" -%}
+  {%- when "10" -%}{%- assign maand = "oktober" -%}
+  {%- when "11" -%}{%- assign maand = "november" -%}
+  {%- when "12" -%}{%- assign maand = "december" -%}
+{%- endcase -%}
+<p class="page-meta">
+  <span>Geschreven door <a href="{{ '/over-mij/' | relative_url }}">{{ site.data.author.name }}</a></span>
+  <span aria-hidden="true">·</span>
+  <time datetime="{{ modified | date: '%Y-%m-%d' }}">Laatst bijgewerkt {{ modified | date: '%-d' }} {{ maand }} {{ modified | date: '%Y' }}</time>
+</p>
+{%- endif -%}

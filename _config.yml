@@ -1,15 +1,29 @@
 title: De Creatieve M(a)an
-tagline: Freelance creative concept developer
+tagline: Serious games, conceptontwikkeling en training
 description: >-
-  Jan-Willem Manenschijn brengt mensen in beweging met serious games,
-  conceptontwikkeling en training. Creatief, mensgericht en speels.
+  Jan-Willem Manenschijn ontwerpt serious games en leerervaringen die mensen
+  in beweging brengen. Freelance conceptontwikkelaar en trainer vanuit Houten
+  (Utrecht): workshops, maatwerkspellen en Preludens.
 url: "https://creatievemaan.nl"
 baseurl: ""
 lang: nl
 locale: nl_NL
+logo: /assets/images/favicon.svg
 email: jan-willem@creatievemaan.nl
 phone: "06 28 08 77 58"
 phone_link: "+31628087758"
+kvk: "73566888"
+vat: "NL859581160B01"
+
+author:
+  name: Jan-Willem Manenschijn
+  url: https://creatievemaan.nl/over-mij/
+
+social:
+  name: De Creatieve M(a)an
+  links:
+    - https://www.linkedin.com/in/creatievemaan
+    - https://github.com/janwillemm
 
 permalink: pretty
 markdown: kramdown
@@ -19,11 +33,13 @@ kramdown:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - CONTENT-VULLEN.md
   - vendor
   - .bundle
   - .github
@@ -40,11 +56,13 @@ defaults:
       type: "pages"
     values:
       layout: page
+      image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-developer-Jan-willem-Manenschijn-de-creatieve-maan-outline-768x768.png
   - scope:
       path: ""
       type: "projects"
     values:
       layout: project
+      image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-developer-Jan-willem-Manenschijn-de-creatieve-maan-outline-768x768.png
 
 navigation:
   - title: Home
@@ -69,3 +87,5 @@ footer_links:
     url: /aan-de-slag/
   - title: Projecten
     url: /projecten/
+  - title: Wat is een serious game?
+    url: /wat-is-een-serious-game/

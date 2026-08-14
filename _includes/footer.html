@@ -3,6 +3,11 @@
     <div>
       <p class="footer-brand">De Creatieve M(a)an</p>
       <p class="footer-tagline">Zet mensen in beweging.</p>
+      <p class="footer-eeat">
+        Inhoud door <a href="{{ '/over-mij/' | relative_url }}">Jan-Willem Manenschijn</a> —
+        serious game designer vanuit Houten (Utrecht), op basis van eigen ervaring
+        als ontwerper, trainer en voormalig creatief directeur van Raccoon Serious Games.
+      </p>
     </div>
     <nav aria-label="Footer navigatie">
       <ul class="footer-links">
@@ -14,9 +19,16 @@
     <div class="footer-contact">
       <p><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
       <p><a href="tel:{{ site.phone_link }}">{{ site.phone }}</a></p>
+      <p>
+        <a href="{{ site.data.author.linkedin }}" rel="me noopener noreferrer" target="_blank">LinkedIn</a>
+      </p>
+      <p class="footer-legal">
+        KVK {{ site.kvk }}<br>
+        btw {{ site.vat }}
+      </p>
     </div>
   </div>
   <div class="container site-footer__bottom">
-    <p>&copy; {{ 'now' | date: '%Y' }} Jan-Willem Manenschijn</p>
+    <p>&copy; {{ 'now' | date: '%Y' }} Jan-Willem Manenschijn · De Creatieve M(a)an · KVK {{ site.kvk }} · btw {{ site.vat }}</p>
   </div>
 </footer>

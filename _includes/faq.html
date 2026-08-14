@@ -1,0 +1,14 @@
+{%- assign items = site.data.faqs[include.key] -%}
+{%- if items -%}
+<section class="faq" id="veelgestelde-vragen" aria-labelledby="faq-heading">
+  <h2 id="faq-heading">{{ include.title | default: "Veelgestelde vragen" }}</h2>
+  <div class="faq__list">
+    {% for item in items %}
+    <details class="faq__item"{% if forloop.first %} open{% endif %}>
+      <summary>{{ item.question }}</summary>
+      <div class="faq__answer">{{ item.answer | markdownify }}</div>
+    </details>
+    {% endfor %}
+  </div>
+</section>
+{%- endif -%}

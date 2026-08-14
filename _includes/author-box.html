@@ -1,0 +1,25 @@
+{%- assign author = site.data.author -%}
+<aside class="author-box" aria-label="Over de auteur">
+  <img
+    class="author-box__photo"
+    src="{{ author.image }}"
+    alt="{{ author.image_alt }}"
+    width="96"
+    height="96"
+    loading="lazy"
+    decoding="async"
+  >
+  <div class="author-box__body">
+    <p class="author-box__by">Inhoud door</p>
+    <p class="author-box__name">
+      <a href="{{ author.url | relative_url }}">{{ author.name }}</a>
+    </p>
+    <p class="author-box__role">{{ author.job_title }}</p>
+    <p class="author-box__bio">{{ author.tagline }} {{ author.education }}.</p>
+    <p class="author-box__links">
+      <a href="{{ author.url | relative_url }}">Meer over Jan-Willem</a>
+      <span aria-hidden="true">·</span>
+      <a href="{{ author.linkedin }}" rel="me noopener noreferrer" target="_blank">LinkedIn</a>
+    </p>
+  </div>
+</aside>

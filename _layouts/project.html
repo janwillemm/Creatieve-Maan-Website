@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-<article class="project-detail">
+<article class="project-detail" itemscope itemtype="https://schema.org/Article">
   <header class="project-detail__header">
     <div class="container">
+      {% include breadcrumbs.html %}
       <a class="back-link" href="{{ '/projecten/' | relative_url }}">← Alle projecten</a>
       <p class="eyebrow">{{ page.period }}</p>
-      <h1>{{ page.title }}</h1>
-      <p class="lead">{{ page.summary }}</p>
+      <h1 itemprop="headline">{{ page.title }}</h1>
+      <p class="lead" itemprop="description">{{ page.summary }}</p>
+      {% include updated.html %}
       {% if page.role %}
       <p class="project-detail__role"><strong>Rol:</strong> {{ page.role }}</p>
       {% endif %}
@@ -21,7 +23,7 @@ layout: default
     </div>
   </header>
 
-  <div class="container project-detail__body prose">
+  <div class="container project-detail__body prose" itemprop="articleBody">
     {{ content }}
   </div>
 
@@ -38,4 +40,8 @@ layout: default
     </a>
   </div>
   {% endif %}
+
+  <div class="container">
+    {% include author-box.html %}
+  </div>
 </article>

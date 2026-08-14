@@ -1,17 +1,24 @@
 ---
 layout: home
-title: Home
+title: Serious games die mensen in beweging brengen
+description: >-
+  Jan-Willem Manenschijn ontwerpt serious games, leerervaringen en trainingen.
+  Freelance conceptontwikkelaar vanuit Houten: workshops, maatwerk en Preludens.
+last_modified_at: 2026-08-14
+faq_key: home
+image: https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-developer-Jan-willem-Manenschijn-de-creatieve-maan-outline-768x768.png
 ---
 
 <section class="hero">
   <div class="container hero__grid">
     <div class="hero__content">
-      <p class="hero__eyebrow">Freelance creative concept developer</p>
+      <p class="hero__eyebrow">Serious game designer · conceptontwikkelaar · trainer</p>
       <h1 class="hero__title">Brengt mensen in <em>beweging</em></h1>
       <p class="hero__lead">
-        Of het gaat om creatieve teams die een doel moeten bereiken of om
-        maatschappelijke bewustwording: met een energieke en mensgerichte aanpak
-        zorg ik ervoor dat mensen in beweging komen.
+        Jan-Willem Manenschijn ontwerpt serious games en leerervaringen die mensen
+        laten ervaren in plaats van alleen informeren. Vanuit Houten (Utrecht) werkt
+        hij landelijk met teams, scholen en organisaties die een groep in beweging
+        willen krijgen.
       </p>
       <div class="hero__actions">
         <a class="btn btn--primary" href="mailto:{{ site.email }}">Neem contact op</a>
@@ -29,14 +36,15 @@ title: Home
       <img
         class="hero__portrait"
         src="https://creatievemaan.nl/wp-content/uploads/2024/12/Creative-concept-developer-Jan-willem-Manenschijn-de-creatieve-maan-outline-768x768.png"
-        alt="Jan-Willem Manenschijn – De Creatieve M(a)an"
+        alt="Jan-Willem Manenschijn, serious game designer van De Creatieve M(a)an"
         width="768"
         height="768"
         loading="eager"
+        decoding="async"
       >
       <p class="hero__caption">
         Hoi! Ik ben Jan-Willem
-        <span>Een creatief mens</span>
+        <span>Serious game designer</span>
       </p>
     </div>
   </div>
@@ -44,12 +52,16 @@ title: Home
 
 <section class="section">
   <div class="container">
+    {% include answer.html
+      text="De Creatieve M(a)an is het werk van Jan-Willem Manenschijn: hij ontwerpt en begeleidt serious games, digitale leerervaringen en trainingen. Doel is dat mensen ná de sessie anders kijken, praten of handelen — niet alleen meer weten."
+    %}
     <div class="section__header">
       <p class="eyebrow">Wat ik doe</p>
-      <h2>Serious games die raken en verbinden</h2>
+      <h2>Wat is een serious game die raakt en verbindt?</h2>
       <p class="lead">
         Ik combineer informatica, creativiteit en een passie voor leren. Samen
         ontwerpen we ervaringen waarin spelen en reflecteren hand in hand gaan.
+        <a href="{{ '/wat-is-een-serious-game/' | relative_url }}">Wat is een serious game?</a>
       </p>
     </div>
     <div class="card-grid">
@@ -85,11 +97,11 @@ title: Home
 <section class="section section--surface">
   <div class="container">
     <div class="section__header">
-      <p class="eyebrow">Nu</p>
-      <h2>Preludens</h2>
+      <p class="eyebrow">Huidig bedrijf</p>
+      <h2>Wat is Preludens?</h2>
       <p class="lead">
-        Mijn bedrijf voor leerervaringen die vooruitkijken: stripverhalen, MicroGames
-        en feedback in jullie eigen leeromgeving.
+        Preludens is mijn bedrijf voor leerervaringen die vooruitkijken: stripverhalen,
+        MicroGames en feedback in jullie eigen leeromgeving.
       </p>
     </div>
     <p>
@@ -106,7 +118,7 @@ title: Home
   <div class="container">
     <div class="section__header">
       <p class="eyebrow">Projecten</p>
-      <h2>Waar ik aan heb gewerkt</h2>
+      <h2>Aan welke projecten heeft Jan-Willem gewerkt?</h2>
       <p class="lead">
         Van Preludens en Jump tot Raccoon Serious Games — altijd met focus op
         mensen, inleving en maatschappelijke impact.
@@ -127,6 +139,12 @@ title: Home
     <p style="margin-top: 2rem;">
       <a class="btn btn--ghost" href="{{ '/projecten/' | relative_url }}">Alle projecten</a>
     </p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% include faq.html key="home" %}
   </div>
 </section>
 

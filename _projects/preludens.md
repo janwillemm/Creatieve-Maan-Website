@@ -1,11 +1,16 @@
 ---
 title: Preludens
+description: >-
+  Preludens is het huidige bedrijf van Jan-Willem Manenschijn: leerervaringen
+  met stripverhalen en MicroGames in de leeromgeving van de opdrachtgever.
 summary: >-
   Huidig bedrijf: leerervaringen met stripverhalen en MicroGames die deelnemers
   voorbereiden op verandering — in de eigen leeromgeving van de opdrachtgever.
 period: Heden
 role: Oprichter & conceptontwikkelaar
 order: 0
+last_modified_at: 2026-08-14
+schema_type: Article
 tags:
   - Leerervaringen
   - Stripverhalen
@@ -14,7 +19,9 @@ tags:
 internal_url: /preludens/
 ---
 
-## Visie
+Preludens is het huidige bedrijf van Jan-Willem Manenschijn. Het ontwerpt leerervaringen met stripverhalen en MicroGames, zodat een brede doelgroep zich kan voorbereiden op verandering — in de eigen leeromgeving van de opdrachtgever.
+
+## Wat is de visie van Preludens?
 
 Preludens richt zich op het voorbereiden van een brede doelgroep op toekomstige veranderingen en nieuwe kennis. In plaats van passieve kennisoverdracht creëren we leerervaringen die aansluiten bij de praktijk en vooruitkijken naar wat komt. Deelnemers begrijpen niet alleen wát er verandert, maar vooral wat dit betekent voor hun eigen handelen.
 
