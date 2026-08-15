@@ -3,8 +3,10 @@
   <p class="preview-bar__label">Preview — nog niet het live aanbod</p>
   <nav class="preview-bar__nav" aria-label="Drie pagina-opties">
     <a href="{{ '/preview/spelpaginas/' | relative_url }}"{% if current == 'overzicht' %} aria-current="page"{% endif %}>Overzicht</a>
-    <a href="{{ '/preview/spel-ervaring/' | relative_url }}"{% if current == 'ervaring' %} aria-current="page"{% endif %}>A · Ervaring</a>
-    <a href="{{ '/preview/spel-resultaat/' | relative_url }}"{% if current == 'resultaat' %} aria-current="page"{% endif %}>B · Resultaat</a>
-    <a href="{{ '/preview/spel-sessie/' | relative_url }}"{% if current == 'sessie' %} aria-current="page"{% endif %}>C · Sessie</a>
+    <a href="{{ '/preview/spel-ervaring/' | relative_url }}"{% if current == 'ervaring' %} aria-current="page"{% endif %}>A · Spel</a>
+    <a href="{{ '/preview/spel-resultaat/' | relative_url }}"{% if current == 'resultaat' %} aria-current="page"{% endif %}>B · Spel</a>
+    <a href="{{ '/preview/spel-sessie/' | relative_url }}"{% if current == 'sessie' %} aria-current="page"{% endif %}>C · Spel</a>
+    <a href="{{ '/preview/workshop-laaggeletterdheid/' | relative_url }}"{% if current == 'workshop' %} aria-current="page"{% endif %}>Workshop</a>
+    <a href="{{ '/preview/training-spelend-impact/' | relative_url }}"{% if current == 'training' %} aria-current="page"{% endif %}>Training</a>
   </nav>
 </aside>

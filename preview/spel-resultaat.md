@@ -16,7 +16,7 @@ last_modified_at: 2026-08-15
 <section class="spel-hero spel-hero--offer">
   <div class="container spel-hero__split">
     <div>
-      <p class="hero__eyebrow">Direct te boeken · 8–20 deelnemers</p>
+      <p class="hero__eyebrow">Voorbeeld spel · optie B · 8–20 deelnemers</p>
       <h1 class="hero__title">Zet <em>vertrouwen</em> tussen teams op de agenda — in één sessie</h1>
       <p class="hero__lead">
         Reality Check is een serious game waarin afdelingen voelen wat er

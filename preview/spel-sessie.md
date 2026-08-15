@@ -15,7 +15,7 @@ last_modified_at: 2026-08-15
 
 <section class="spel-hero spel-hero--spec">
   <div class="container">
-    <p class="hero__eyebrow">Sessiespecificatie</p>
+    <p class="hero__eyebrow">Voorbeeld spel · optie C · sessie-spec</p>
     <h1 class="hero__title">Reality Check</h1>
     <p class="hero__lead">
       Vertrouwensgame voor teams. Prisoner’s dilemma in een schapenweide —

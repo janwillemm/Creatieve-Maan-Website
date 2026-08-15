@@ -15,7 +15,7 @@ last_modified_at: 2026-08-15
 
 <section class="spel-hero spel-hero--story">
   <div class="container">
-    <p class="hero__eyebrow">Serious game · vertrouwen</p>
+    <p class="hero__eyebrow">Voorbeeld spel · optie A · ervaring eerst</p>
     <h1 class="hero__title">Vier boerderijen. Eén weide. <em>Vertrouw</em> je elkaar?</h1>
     <p class="hero__lead">
       Reality Check laat teams voelen wat er gebeurt als eigenbelang en
